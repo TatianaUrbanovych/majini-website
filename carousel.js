@@ -24,8 +24,9 @@ const members = [
   {
     name: 'Liam Jackson',
     role: 'Drums',
-    image:
-      'https://scontent-dub4-1.cdninstagram.com/v/t51.75761-15/476126786_17946408953929310_8892966859178458760_n.webp?_nc_cat=108&ig_cache_key=MzU2MTM5MjMxODM3NzU3NDY2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u9oLnPSa9HEQ7kNvwHoTXs4&_nc_oc=AdonIvy5b25V-DbVDu6-X_gKSpFL-if1ZiwIA8zvBpCgLwXX1AW7oe5jkPTOYJDN3eg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dub4-1.cdninstagram.com&_nc_gid=A_ZDcr3VrYtIWEkJrIX7WA&_nc_ss=7a22e&oh=00_Af_Xeuyh2A-7qWym_zJW5NmYXdZVLcMiET-3dLeb7s_hJw&oe=6A2DEFA0',
+    // image:
+    //   'https://scontent-dub4-1.cdninstagram.com/v/t51.75761-15/476126786_17946408953929310_8892966859178458760_n.webp?_nc_cat=108&ig_cache_key=MzU2MTM5MjMxODM3NzU3NDY2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u9oLnPSa9HEQ7kNvwHoTXs4&_nc_oc=AdonIvy5b25V-DbVDu6-X_gKSpFL-if1ZiwIA8zvBpCgLwXX1AW7oe5jkPTOYJDN3eg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dub4-1.cdninstagram.com&_nc_gid=A_ZDcr3VrYtIWEkJrIX7WA&_nc_ss=7a22e&oh=00_Af_Xeuyh2A-7qWym_zJW5NmYXdZVLcMiET-3dLeb7s_hJw&oe=6A2DEFA0',
+    image: 'images/Liam2.jpg',
     bio: "Liam's drumming keeps the beat and brings energy to every track.",
   },
 ]
