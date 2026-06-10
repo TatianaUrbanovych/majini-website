@@ -5,10 +5,10 @@
 }
 
 .icon {
-  background: url('/logo.jpeg');
+  /* background: url('/logo.jpeg'); */
   height: 20px;
   width: 20px;
-  display: block;
+  display: inline-flex;
   /* Other styles here */
 }
 
