@@ -12,6 +12,23 @@
   /* Other styles here */
 }
 
+/* h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 4rem;
+  font-weight: 700;
+  font-style: italic;
+  color: #fff;
+  text-shadow:
+    3px 0 0 #000,
+    6px 0 0 #000,
+    9px 0 0 #000,
+    12px 0 0 #000,
+    15px 0 0 #000,
+    18px 0 0 #000,
+    4px 4px 10px rgba(0, 0, 0, 0.7);
+  letter-spacing: 0.15em;
+} */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
