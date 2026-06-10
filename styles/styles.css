@@ -1,0 +1,302 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.icon {
+  background: url('/logo.jpeg');
+  height: 20px;
+  width: 20px;
+  display: block;
+  /* Other styles here */
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Navigation */
+nav {
+  background-color: #1a1a1a;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+nav a {
+  color: #fff !important;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  color: #ff6b6b !important;
+}
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(135deg, #1a1a1a 0%, #333 100%);
+  color: white;
+  padding: 120px 20px;
+  text-align: center;
+  min-height: 600px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero h1 {
+  font-size: 3.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+  font-size: 1.3rem;
+  margin-bottom: 30px;
+  opacity: 0.9;
+}
+
+.hero .btn {
+  margin: 10px;
+}
+
+/* Section Styling */
+section {
+  padding: 80px 20px;
+}
+
+section h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 50px;
+  text-align: center;
+  color: #1a1a1a;
+}
+
+section h2::after {
+  content: '';
+  display: block;
+  width: 80px;
+  height: 4px;
+  background-color: #ff6b6b;
+  margin: 20px auto 0;
+}
+
+/* Band Info Section */
+#about {
+  background-color: #f8f9fa;
+}
+
+.about-text {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #555;
+}
+
+/* Member Card Base Styling */
+.member-card {
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  transition:
+    transform 0.3s ease,
+    box-shadow 0.3s ease;
+  background-color: white;
+  border: 1px solid #eee;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.member-card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.member-card img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin-bottom: 15px;
+  flex-shrink: 0;
+}
+
+.member-card h4 {
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-top: 15px;
+  margin-bottom: 8px;
+}
+
+.member-card .role {
+  color: #ff6b6b;
+  font-weight: 600;
+  margin-bottom: 10px;
+  font-size: 0.95rem;
+}
+
+.member-card p {
+  color: #666;
+  font-size: 0.95rem;
+  flex-grow: 1;
+}
+
+/* Carousel Card - Fixed width for proper centering */
+.member-carousel-card {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+/* Carousel Controls - Only visible on medium screens */
+.carousel-control-prev,
+.carousel-control-next {
+  display: none;
+}
+
+/* Show controls only on medium screens (768px - 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+  .carousel-control-prev,
+  .carousel-control-next {
+    display: flex;
+    width: 45px;
+    height: 45px;
+    top: 50%;
+    transform: translateY(-50%);
+    opacity: 1;
+  }
+
+  .carousel-control-prev {
+    left: -70px;
+  }
+
+  .carousel-control-next {
+    right: -70px;
+  }
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  background-color: #ff6b6b;
+  border-radius: 50%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  opacity: 0.8;
+}
+
+/* Smooth carousel transitions */
+.carousel-item {
+  transition:
+    transform 0.6s ease-in-out,
+    opacity 0.6s ease-in-out;
+}
+
+/* Carousel card for small screens */
+.member-carousel-card {
+  width: 100%;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+/* Music Section */
+#music {
+  background-color: #f8f9fa;
+}
+
+.song-card {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.song-card h4 {
+  color: #1a1a1a;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.song-card .album {
+  color: #ff6b6b;
+  font-size: 0.9rem;
+  margin-bottom: 15px;
+}
+
+.song-card audio {
+  width: 100%;
+  margin-top: 15px;
+}
+
+/* Video Section */
+.video-container {
+  position: relative;
+  width: 100%;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
+  border-radius: 8px;
+  margin-bottom: 30px;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  border: none;
+}
+
+/* Footer */
+footer {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+footer a {
+  color: #ff6b6b;
+  text-decoration: none;
+  margin: 0 10px;
+  transition: color 0.3s ease;
+}
+
+footer a:hover {
+  color: #fff;
+}
+
+.social-links {
+  margin: 20px 0;
+}
+
+.social-links a {
+  font-size: 1.5rem;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+
+  .hero p {
+    font-size: 1.1rem;
+  }
+
+  section h2 {
+    font-size: 2rem;
+  }
+}
