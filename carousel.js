@@ -3,26 +3,30 @@ const members = [
   {
     name: 'Roger Bond',
     role: 'Lead Vocals',
-    image: 'https://via.placeholder.com/250x250?text=Lead+Vocals',
+    image:
+      'https://scontent-dub4-1.cdninstagram.com/v/t51.75761-15/476414025_17946408965929310_9120815120633968196_n.webp?_nc_cat=101&ig_cache_key=MzU2MTM5MjMxODQ3ODEyMzI4NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=A_j_XOCYe5MQ7kNvwHEmDKs&_nc_oc=Adpti-JdKVhf6MT8HhhKO5RaTw6v-gxASpUZi6DhbVsiLEVyQbT6ZdutXWFw1RS9J3o&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dub4-1.cdninstagram.com&_nc_gid=A_ZDcr3VrYtIWEkJrIX7WA&_nc_ss=7a22e&oh=00_Af__MACPOZqt0lCdXDYzLUOgO68MzWz1eyZ7H5IeZb1hzA&oe=6A2DD3D9',
     bio: 'Never knows the words.',
   },
   {
     name: 'Julian Zander',
     role: 'Lead Guitar',
-    image: 'https://via.placeholder.com/250x250?text=Lead+Guitar',
+    image:
+      'https://scontent-dub4-1.cdninstagram.com/v/t51.75761-15/476650167_17946408944929310_5413361343441042771_n.webp?_nc_cat=102&ig_cache_key=MzU2MTM5MjMxODY5NjMzODQ0NQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=8J6hKB3Q63QQ7kNvwFtHZhb&_nc_oc=AdocusVABh-55a97Rbes1SDxPo363OTuJs_a6mWE8sns7FW2j4-Clqdk90CGY2P_r_4&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dub4-1.cdninstagram.com&_nc_gid=A_ZDcr3VrYtIWEkJrIX7WA&_nc_ss=7a22e&oh=00_Af-wSEp8cxjvja7oysvus4Mkg8kocMXNG4_kB_KPXj88jg&oe=6A2DFC68',
     bio: "Julian's guitar riffs define our sound. His technical skill is matched.",
   },
   {
-    name: 'Mike Johnson',
+    name: 'Rory Parker',
     role: 'Bass Guitar',
-    image: 'https://via.placeholder.com/250x250?text=Bass+Guitar',
-    bio: 'Mike holds down the foundation with powerful bass lines that drive our songs.',
+    image:
+      'https://scontent-dub4-1.cdninstagram.com/v/t51.75761-15/476234638_17946408974929310_9031619429586972323_n.webp?_nc_cat=101&ig_cache_key=MzU2MTM5MjMxODQ3ODA1NjU0MA%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=6GkqGrIT26kQ7kNvwFGqv5d&_nc_oc=Adrs07RF_vZ-1LAIooVx2ZMTWTyYnJZyCS8SZjpQhrzlpu5WqpzUzOsGfX8YjTOJT2I&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dub4-1.cdninstagram.com&_nc_gid=A_ZDcr3VrYtIWEkJrIX7WA&_nc_ss=7a22e&oh=00_Af_E0HjR-7y4g0yvZ6n8XTeha5AqBYXhTs1LzV6X3zftEw&oe=6A2E02FB',
+    bio: 'Rory holds down the foundation with powerful bass lines that drive our songs.',
   },
   {
-    name: 'Alex Brown',
+    name: 'Liam Jackson',
     role: 'Drums',
-    image: 'https://via.placeholder.com/250x250?text=Drums',
-    bio: "Alex's drumming keeps the beat and brings energy to every track.",
+    image:
+      'https://scontent-dub4-1.cdninstagram.com/v/t51.75761-15/476126786_17946408953929310_8892966859178458760_n.webp?_nc_cat=108&ig_cache_key=MzU2MTM5MjMxODM3NzU3NDY2MQ%3D%3D.3-ccb7-5&ccb=7-5&_nc_sid=58cdad&efg=eyJ2ZW5jb2RlX3RhZyI6IkNBUk9VU0VMX0lURU0ueHBpZHMuMTQ0MC5zZHIucmVndWxhcl9waG90by5DMyJ9&_nc_ohc=u9oLnPSa9HEQ7kNvwHoTXs4&_nc_oc=AdonIvy5b25V-DbVDu6-X_gKSpFL-if1ZiwIA8zvBpCgLwXX1AW7oe5jkPTOYJDN3eg&_nc_ad=z-m&_nc_cid=0&_nc_zt=23&_nc_ht=scontent-dub4-1.cdninstagram.com&_nc_gid=A_ZDcr3VrYtIWEkJrIX7WA&_nc_ss=7a22e&oh=00_Af_Xeuyh2A-7qWym_zJW5NmYXdZVLcMiET-3dLeb7s_hJw&oe=6A2DEFA0',
+    bio: "Liam's drumming keeps the beat and brings energy to every track.",
   },
 ]
 
