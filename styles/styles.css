@@ -280,7 +280,8 @@ section h2::after {
 
 /* Footer */
 footer {
-  background-color: #1a1a1a;
+  background: url('/images/neon_background.jpg');
+  /* background-color: #1a1a1a; */
   color: white;
   padding: 40px 20px;
   text-align: center;
