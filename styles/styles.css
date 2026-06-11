@@ -54,8 +54,8 @@ nav a:hover {
 /* Hero Section */
 .hero {
   /* background: linear-gradient(135deg, #1a1a1a 0%, #333 100%); */
-  background: url('/images/logo.jpeg');
-  /* background-size: cover; */
+  background: url('/images/neon_background.jpg');
+  background-size: cover;
   color: white;
   padding: 120px 20px;
   text-align: center;
