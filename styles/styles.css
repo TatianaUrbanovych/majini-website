@@ -77,6 +77,12 @@ nav a:hover {
   opacity: 0.9;
 }
 
+.hero img {
+  max-width: 100%;
+  height: 10rem;
+  margin-bottom: 20px;
+}
+
 .hero .btn {
   margin: 10px;
 }
@@ -303,6 +309,11 @@ footer a {
 
 footer a:hover {
   color: #e7a6a6;
+}
+
+footer img {
+  max-width: 100%;
+  height: 5rem;
 }
 
 .social-links {
