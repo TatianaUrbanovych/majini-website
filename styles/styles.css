@@ -11,23 +11,6 @@
   /* Other styles here */
 }
 
-/* h1 {
-  font-family: 'Bebas Neue', sans-serif;
-  font-size: 4rem;
-  font-weight: 700;
-  font-style: italic;
-  color: #fff;
-  text-shadow:
-    3px 0 0 #000,
-    6px 0 0 #000,
-    9px 0 0 #000,
-    12px 0 0 #000,
-    15px 0 0 #000,
-    18px 0 0 #000,
-    4px 4px 10px rgba(0, 0, 0, 0.7);
-  letter-spacing: 0.15em;
-} */
-
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -102,7 +85,7 @@ section h2 {
   font-weight: bold;
   margin-bottom: 50px;
   text-align: center;
-  color: #1a1a1a;
+  color: #f9f7f7;
 }
 
 section h2::after {
@@ -116,16 +99,20 @@ section h2::after {
 
 /* Band Info Section */
 #about {
-  background-color: #f8f9fa;
+  background-color: #1a1a1a;
 }
 
 .about-text {
   font-size: 1.1rem;
   line-height: 1.8;
-  color: #555;
+  color: white;
 }
 
-/* Member Card Base Styling */
+/* Members section */
+#members {
+  background-color: #1f1f1f;
+}
+
 .member-card {
   text-align: center;
   padding: 20px;
@@ -133,8 +120,8 @@ section h2::after {
   transition:
     transform 0.3s ease,
     box-shadow 0.3s ease;
-  background-color: white;
-  border: 1px solid #eee;
+  background-color: #2b2b2b;
+  border: 1px solid #212121;
   display: flex;
   flex-direction: column;
   height: 100%;
@@ -142,7 +129,7 @@ section h2::after {
 
 .member-card:hover {
   transform: translateY(-10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 10px 30px rgba(253, 251, 251, 0.15);
 }
 
 .member-card img {
@@ -155,21 +142,21 @@ section h2::after {
 }
 
 .member-card h4 {
-  color: #1a1a1a;
+  color: #f9f7f7;
   font-weight: bold;
   margin-top: 15px;
   margin-bottom: 8px;
 }
 
 .member-card .role {
-  color: #852424;
+  color: #ff6b6b;
   font-weight: 600;
   margin-bottom: 10px;
   font-size: 0.95rem;
 }
 
 .member-card p {
-  color: #666;
+  color: white;
   font-size: 0.95rem;
   flex-grow: 1;
 }
@@ -240,11 +227,11 @@ section h2::after {
 
 /* Music Section */
 #music {
-  background-color: #f8f9fa;
+  background-color: #1a1a1a;
 }
 
 .song-card {
-  background-color: white;
+  background-color: #2b2b2b;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 30px;
@@ -252,13 +239,13 @@ section h2::after {
 }
 
 .song-card h4 {
-  color: #1a1a1a;
+  color: #f9f7f7;
   font-weight: bold;
   margin-bottom: 10px;
 }
 
 .song-card .album {
-  color: #852424;
+  color: #ff6b6b;
   font-size: 0.9rem;
   margin-bottom: 15px;
 }
@@ -269,6 +256,14 @@ section h2::after {
 }
 
 /* Video Section */
+#videos {
+  background-color: #1f1f1f;
+}
+
+#videos h5 {
+  color: #f9f7f7;
+}
+
 .video-container {
   position: relative;
   width: 100%;
@@ -286,6 +281,27 @@ section h2::after {
   width: 100%;
   height: 100%;
   border: none;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #1a1a1a;
+}
+
+#contact label {
+  color: #f9f7f7;
+}
+
+#contact input,
+#contact textarea {
+  background-color: #2b2b2b;
+  border: 1px solid #212121;
+  color: white;
+}
+
+#contact input::placeholder,
+#contact textarea::placeholder {
+  color: #bbb;
 }
 
 /* Footer */
